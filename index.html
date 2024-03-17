@@ -12,17 +12,59 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    body { background-color: #d5e1ef;}
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .white-box {
+      width: 320px;
+      height: 497px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center
+
+    }
+
+    .qr-image {
+      max-width: 90%;
+      max-height: 90%;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+      
+    }
+
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+ 
+<div class="container">
+ 
+  <div class="white-box">
+    <div class="qr-code">
+      <img src="./images/image-qr-code.png" alt="QR Code to join" class="qr-image">
+      <div class="text">
+        Improve your front-end skills by building projects
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </div>
+    </div>
   
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/jasonalmine">Jason Almine</a>.
   </div>
+
+</div>
+
 </body>
 </html>
